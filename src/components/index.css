@@ -1,0 +1,47 @@
+.navbar{
+    background-color: #21222a;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar > img {
+    margin-right: 6px;
+    width: 80px;
+}
+
+.navbar > h1 {
+    color: #00D8FF;
+    margin-right: auto;
+    font-size: 32px;
+}
+
+.navbar > div {
+    color: #DEEBF8;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+main {
+    padding: 22px;
+    padding-right: 30px;   
+}
+
+main > h1{
+    color: #FFFFFF;
+    font-size: 52px;
+}
+
+main > ul{
+    color:  #FFFFFF;
+    font-size: 20px;
+}
+
+main > ul> li{
+    padding-top: 8px;
+}
+
+main > ul > li::marker{
+    color: #00D8FF;
+    font-size: 1.8rem;
+}
