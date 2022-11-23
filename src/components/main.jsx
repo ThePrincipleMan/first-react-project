@@ -1,9 +1,9 @@
 import React from "react"
 import "./index.css"
 
-export default function Main(){
+export default function Main(props){
     return(
-        <main>
+        <main className={props.darkMode ? "" : "light"}>
             <h1>Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
@@ -14,4 +14,4 @@ export default function Main(){
             </ul>
         </main>
     )
-}
+} 

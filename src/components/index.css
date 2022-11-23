@@ -1,22 +1,30 @@
-.navbar{
+nav{
     background-color: #21222a;
     display: flex;
     align-items: center;
     padding: 20px;
 }
 
-.navbar > img {
+nav.light{
+    background-color: #ffffff;
+}
+
+nav.light > div {
+    color:#33373E;
+}
+
+nav > img {
     margin-right: 6px;
     width: 80px;
 }
 
-.navbar > h1 {
+nav > h1 {
     color: #00D8FF;
     margin-right: auto;
     font-size: 32px;
 }
 
-.navbar > div {
+nav > div {
     color: #DEEBF8;
     font-weight: 600;
     font-size: 20px;
@@ -25,15 +33,21 @@
 main {
     padding: 22px;
     padding-right: 30px;   
+    color: #fff;
+    background-color: #33373E;
+    height: 76vh;
+}
+
+main.light{
+    color: #33373E;
+    background-color: white;  
 }
 
 main > h1{
-    color: #FFFFFF;
     font-size: 52px;
 }
 
 main > ul{
-    color:  #FFFFFF;
     font-size: 20px;
 }
 
